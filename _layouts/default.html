@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% assign site_info = site.site_info__object.english %}
+{% assign current_language = "english" %}
+{% assign random = site.time | date: "%s%N" %}
+<html lang="{{ site_info.analytics.abbreviation }}" dir="{{ site_info.analytics.direction }}">
+{% include head.html %}
+
+	<body>
+{% if site.development_mode == false %}
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W72N2D"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+{% endif %}
+
+		<script type="text/javascript">
+			var mode = {% if site.development_mode %}"editing"{% else %}"production"{% endif %};
+		</script>
+
+		<div class="voa__project">
+
+{% include header.html %}
+
+{{ content }}
+
+		</div><!--.voa__project-->
+
+	</body>
+
+</html>
