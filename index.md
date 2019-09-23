@@ -378,7 +378,6 @@ var topicsDictionary = {{tagDictionaryTemp}};
 <script src="{{ site.url_base }}/js/scripts-basic.js?{{ random }}"></script>
 
 
-
 <script type="text/javascript">
 
 // Experimenting with automcomplete:
