@@ -1,0 +1,141 @@
+.voa__project {
+	height: 100%;
+	line-height: 1.2;
+	max-width: 100%;
+	overflow-wrap: break-word;
+	padding: 0;
+	word-wrap: break-word;
+
+	img {
+		max-width: 100%;
+	}
+
+	a {
+		color: $color__voa-blue;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5 {
+		font-family: $font__sansDisplay;
+		margin: 0;
+	}
+
+	p,
+	a,
+	ul,
+	li,
+	strong,
+	th, td,
+	div, span {
+		font-family: $font__sans;
+	}
+
+	.voa__kicker,
+	.voa__graphic__kicker {
+		background-color: $color__voa-red--dark;
+		color: #FFF;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: bold;
+		margin-bottom: 10px;
+		padding: 5px 7px;
+		text-transform: uppercase;
+
+		a {
+			color: #FFF;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		&.small {
+			font-size: 12px;
+		}
+	}
+
+	.voa__label {
+		color: $color__voa-red--dark;
+		font-weight: bold;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+
+		a {
+			color: $color__voa-red--dark;
+		}
+
+		&.small {
+			font-size: 14px;
+			margin-bottom: 5px;
+		}
+
+	}
+
+
+	p.voa__tagline {
+		color: #666;
+		font-size: 14px;
+		margin: 0;
+		padding-top: 10px;
+	}
+
+
+
+
+	.voa__section {
+		margin: 0 auto;
+		max-width: $max-width;
+		padding: 0;
+		position: relative;
+
+		&.white {
+			background-color: #FFF;
+
+			border-right: 1px solid #F1F1F1;
+			border-left: 1px solid #F1F1F1; 
+		}
+	}
+
+	.voa__section__full-width {
+		padding: 0;
+		position: relative;
+	}
+
+
+
+	table {
+		border-collapse: collapse;
+		font-family: $font__sans;
+		margin-bottom: 40px;
+		width: 100%;
+
+		tr 	{
+
+			td {
+				border-top: 1px solid #F1F1F1;
+				text-align: center;
+
+				&:first-of-type {
+					padding-left: 5px;
+					text-align: left;
+				}
+			}
+		}
+
+		tr th {
+			&:first-of-type {
+				text-align: left;
+			}
+		}
+	}
+
+
+	.voa__border-bottom {
+		border-bottom: 1px dotted #CCC;
+	}
+
+}
+

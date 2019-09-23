@@ -1,0 +1,13 @@
+// utility classes
+
+.voa__project {
+	.voa__clear:before,
+	.voa__clear:after {
+		content: " ";
+		display: table;
+	}
+
+	.voa__clear:after {
+		clear: both;
+	}
+}

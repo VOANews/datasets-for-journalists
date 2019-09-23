@@ -1,0 +1,50 @@
+// FONTS
+
+$font__sansDisplay:   Arial, Helvetica,sans-serif;
+$font__sans:          Arial, Helvetica,sans-serif;
+$font__serif:         "Lora", serif;
+
+
+// COLORS
+
+$color__voa-red:              #CB131A;
+$color__voa-blue:             #3A79B7;
+$color__voa-red--dark:        #990000;
+$color__voa-blue-light:       #a9bfe2;
+
+
+$color__voa-gray-lightest:    #F1F1F1;
+$color__voa-gray-lighter:     #CCCCCC;
+$color__voa-gray-light:       #999999; 
+$color__voa-gray-medium:      #666666;
+$color__voa-gray-dark:        #333333;
+
+
+
+// MEDIA QUERIES
+
+$media__small:                 420px;//400px;
+$media__medium:                640px;
+$media__medium-large:          780px;
+$media__large:                 992px;
+$media__extra-large:          1280px;
+$max-width:                   $media__extra-large;
+
+// bracketing sizes for media queries
+
+$media__small--:              $media__small - 1;
+$media__medium--:             $media__medium - 1;
+$media__medium-large--:       $media__medium-large - 1;
+$media__large--:              $media__large - 1;
+$media__extra-large--:        $media__extra-large - 1;
+
+
+
+// BORDERS
+$border-radius:                  4px;
+$border__solid-light:		1px solid #CCC;
+$border__dotted-light:		1px dotted #CCC;
+$border__solid-dark:		1px solid #333;
+$border__dotted-dark:		1px dotted #333;
+
+$icon__size:                    40px;
