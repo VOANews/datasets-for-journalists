@@ -4,8 +4,8 @@
 
 # EDIT FOR DEPLOYING IN A SUB FOLDER
 # (USE THE PATH WHERE IT'LL BE HOSTED)
-url_base: ""
-# url_base: https://voanews.github.io/datasets-for-journalists
+# url_base: ""
+url_base: https://voanews.github.io/datasets-for-journalists
 
 
 # IF FALSE: ENABLE JS CONSOLE LOGGER AND DISABLE METRICS
