@@ -2,7 +2,7 @@
 
 This project provides a sortable list of datasets that may be of use to journalists. Most of the datasets and descriptions come from Jeremy Singer-Vine’s _[Data Is Plural](https://tinyletter.com/data-is-plural)_, “a weekly newsletter highlighting useful and curious datasets”.
 
-
+You can explore the project [here](https://voanews.github.io/datasets-for-journalists/): https://voanews.github.io/datasets-for-journalists/
 
 
 
