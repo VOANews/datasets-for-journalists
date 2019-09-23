@@ -1,0 +1,9 @@
+_site
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
+
+_raw-media
+
+# Dependency directory
+node_modules
