@@ -1,0 +1,62 @@
+# Welcome to Jekyll!
+# Site settings
+
+
+# EDIT FOR DEPLOYING IN A SUB FOLDER
+# (USE THE PATH WHERE IT'LL BE HOSTED)
+url_base: ""
+# url_base: https://voanews.github.io/datasets-for-journalists
+
+
+# IF FALSE: ENABLE JS CONSOLE LOGGER AND DISABLE METRICS
+development_mode: false
+
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - download-spreadsheet-data-app
+sass:
+  style: compressed
+repository: "voanews/datasets-for-journalists"
+
+
+
+# permalink: /:title:output_ext
+permalink: /:categories/:title:output_ext
+
+
+banner: https://voanews.github.io/datasets-for-journalists/img/thumbnail__w640_h360.jpg
+
+
+# This site_info_object is used for labels, site-wide content, and analytics.
+site_info__object:
+  english:
+    title: Datasets for journalists
+    title_short: Datasets for journalists
+    title_tagline: Helping journalists find data they can use
+    navbar_label: '<span style="color: #900">Datasets</span> for journalists'
+    project_description: 'This project provides a sortable list of datasets that may be of use to journalists. Most of the datasets and descriptions come from Jeremy Singer-Vine’s <em><a href="https://tinyletter.com/data-is-plural">Data Is Plural</a></em>, “a weekly newsletter highlighting useful and curious datasets”.'
+    language_analytics: english
+    keywords: data, datasets, journalism, research
+    service_name: VOA News
+    twitter_handle: VOAnews
+    analytics:
+      language: English
+      language_service: VOA English
+      service: English
+      division: ENG
+      lang: ENG
+      abbreviation: en
+      id: 600
+      direction: ltr
+      website: https://www.voanews.com
+
