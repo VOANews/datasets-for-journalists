@@ -1,0 +1,14 @@
+{
+  "name": "download-spreadsheet-data-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "debug": "~2.1.1",
+    "tabletop": "^1.3.5",
+    "underscore": "^1.9.1"
+  },
+  "author": "Brian Williamson"
+}
