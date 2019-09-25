@@ -351,7 +351,7 @@ var topicsDictionary = {{tagDictionaryTemp}};
 				<h3 class="voa__source__title" style="{% if source.position=='1' %}font-size: 36px;{% else %} font-size: 24px;{% endif %}">{{ source.headline }}</h3>
 				<a href="?id=source{{ source.id }}" class="voa__source__link" title="export link"></a>
 				<a href="#" class="voa__source__corner" title="Save this data source"></a>
-				<p>{{ source.text | replace: "[h/t", hattipLink }}{% if source.hattips != "" %}</a>{% endif %} — {{ source.source}}: {{ source.edition | date: "%B %-d, %Y" }}</p>
+				<p>{{ source.text | replace: "[h/t", hattipLink }}{% if source.hattips != "" %}</a>{% endif %} — {{ source.source}}: {% if source.source == "Data is Plural" %}<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-{{ source.edition | date: "%Y-%m-%d" }}-edition">{{ source.edition | date: "%B %-d, %Y" }}</a>{% else %}{{ source.edition | date: "%B %-d, %Y" }}{% endif %}</p>
 
 				<p><strong>Links:</strong></p>
 				<ul>{% for link in links %}<li><a href="{{ link }}" target="_blank">{{ link }}</a></li>{% endfor %}</ul>

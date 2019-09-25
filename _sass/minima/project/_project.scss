@@ -718,7 +718,12 @@ body.no-scroll {
 	.autocomplete-items { 
 		font-family: $font__sans;
 	}
-
-
-
 } 
+
+@-moz-document url-prefix() {
+	.voa__project .voa__data-source-list {
+		@media only screen and (min-width: 1080px) {
+			column-count: 1 !important;
+		}
+	}
+}
