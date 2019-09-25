@@ -21,6 +21,22 @@ Users can also save a personal list of datasets to their browser. We're storing 
 
 
 
+
+
+## Getting set up ##
+
+The site is built using Jekyll, a liberal use of JQuery and data baked out from a Google spreadsheet.
+
+On most computers (with jekyll installed), you can run `jekyll serve`.
+
+You'll periodically need to run `bundle update`.
+
+
+
+
+
+
+
 ## The spreadsheet data ##
 
 We're maintaining the data in a copy of the original spreadsheet and adding columns for `region`, `updates`, `country`, `topics`, `id` and `source`.
@@ -41,20 +57,6 @@ I'm using a small node app for pulling down the data via [tabletop.js](https://g
 To download the latest data, switch to the `/download-spreadsheet-data-app/` folder and run: `$ node app.js`
 
 I've set up an alternate app— `app-merge-datasources.js` — which loads the main spreadsheet, and then merges it with the secondary spreadsheet of datasets curated by us. It can be run by typing: `$ node app-merge-datasources.js`
-
-
-
-
-
-
-
-## Getting set up ##
-
-The site is built using Jekyll, a liberal use of JQuery and data baked out from a Google spreadsheet.
-
-On most computers (with jekyll installed), you can run `jekyll serve`.
-
-You'll periodically need to run `bundle update`.
 
 
 
