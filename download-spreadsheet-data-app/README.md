@@ -15,7 +15,12 @@ A Google spreadsheet provides the editable data. [The spreadsheet](https://docs.
 * 1 sheet with a list of countries
 * 1 sheet with a list of regions
 
-I'm using [Tabletop.js](https://github.com/jsoma/tabletop) to simplify working with the published spreadsheet. I save the data to a series of JSON files. 
+I was using [Tabletop.js](https://github.com/jsoma/tabletop) to save the data to a series of JSON files. But in Aug. 2021, the Google Sheets API changed and Tabletop ceased to work. 
+
+So I wrote a basic app that loops through Google's JSON endpoint for a spreadsheet.
+
+NOTE: Because this is a larger spreadsheet (and an inefficient way of creating key/value pairs for JSON), the download will probably take 30+ minutes. Also, it doesn't currently merge the separate datasets list from VOA.
+
 
 
 
@@ -26,4 +31,4 @@ To run the application, download the JSON and serve the files:
 * Switch to the `/download-spreadsheet-data-app/` directory
 * run `$ node app.js`
 
-I've set up an alternate app— `app-merge-datasources.js` — which loads the main spreadsheet, and then merges it with the secondary spreadsheet of datasets curated by VOA. It can be run by typing: `$ node app-merge-datasources.js`
+~~I've set up an alternate app— `app-merge-datasources.js` — which loads the main spreadsheet, and then merges it with the secondary spreadsheet of datasets curated by VOA. It can be run by typing: `$ node app-merge-datasources.js`~~

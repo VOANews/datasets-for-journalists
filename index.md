@@ -7,10 +7,10 @@ date: 2019-09-18
 {% assign random = site.time | date: "%s%N" %}
 
 
-{% assign dataSources = site.data.Items %}
-{% assign dictionaryTags = site.data.Tags %}
-{% assign countries = site.data.Countries %}
-{% assign regions = site.data.Regions %}
+{% assign dataSources = site.data.datasets.Items %}
+{% assign dictionaryTags = site.data.datasets.Tags %}
+{% assign countries = site.data.datasets.Countries %}
+{% assign regions = site.data.datasets.Regions %}
 
 
 

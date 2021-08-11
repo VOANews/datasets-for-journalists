@@ -1,14 +1,13 @@
 {
   "name": "download-spreadsheet-data-app",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "start": "node ./"
   },
   "dependencies": {
-    "debug": ">=2.6.9",
-    "tabletop": "^1.3.5",
-    "underscore": "^1.9.1"
+    "underscore": "^1.9.1",
+    "request": "2.88.2"
   },
   "author": "Brian Williamson"
 }
