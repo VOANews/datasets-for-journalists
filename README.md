@@ -56,7 +56,7 @@ I'm using a small node app for pulling down the data ~~via [tabletop.js](https:/
 
 To download the latest data, switch to the `/download-spreadsheet-data-app/` folder and run: `$ node app.js`
 
-~~ I've set up an alternate app— `app-merge-datasources.js` — which loads the main spreadsheet, and then merges it with the secondary spreadsheet of datasets curated by us. It can be run by typing: `$ node app-merge-datasources.js` ~~
+~~I've set up an alternate app— `app-merge-datasources.js` — which loads the main spreadsheet, and then merges it with the secondary spreadsheet of datasets curated by us. It can be run by typing: `$ node app-merge-datasources.js`~~
 
 
 

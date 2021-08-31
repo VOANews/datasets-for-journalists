@@ -1,12 +1,12 @@
 {
-  "name": "download-googlesheets-app",
-  "version": "0.3.0",
+  "name": "download-spreadsheet-data-app",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node ./"
   },
   "dependencies": {
-    "papaparse": "^5.3.1",
+    "underscore": "^1.9.1",
     "request": "2.88.2"
   },
   "author": "Brian Williamson"
